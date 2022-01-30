@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Título: Inicio | Club de running UOC</title>
+<meta name="index" content="Inicio." />
+<link href="css/estilos.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+	<header>
+		<ul>
+			<li><img src="img/logo.png" class="logo" alt="logo"></li>
+			<li><a href="index.html">INICIO</a></li>
+			<li><a href="tallas.html">TALLAS</a></li>
+			<li><a href="inscripcion.html">INSCRIPCIÓN</a></li>
+		</ul>
+	</header>
+
+<div class="cuerpo">
+
+		<h1>Inscripción al club</h1>
+
+		Rellena el siguiente formulario para inscribirte al club.
+
+	<div class="container">
+
+		<form id="contact-form">
+
+			<ul>
+				<li><h3>Datos</h3></li>
+	   				<li><input type="hidden" name="redirect" value="" /></li>
+	   				
+	      				<li>
+	         				<input type="text" name="Nombre" id="Nombre" placeholder="Nombre" value="" required/>
+	      				</li>
+	      				<li>
+	         				<input type="text" name="apellidos" id="Apellidos" placeholder="Apellidos"  value="" required/>
+		         		</li>
+
+		         	</ul>
+					<ul>
+		         		<li>
+		         			<h3>Dirección</h3>
+		      			</li>
+
+		      				
+		      			<li>
+		      						
+		         			<input type="text" name="Calle y número" id="Calle" placeholder="Calle y número" value="" required/>
+		      			</li>
+		      			<li>
+		         			<input type="text" name="Ciudad" id="Ciudad" placeholder="Ciudad" value=""  required/>
+		      			</li>
+		      			<li>
+		         			<input type="text" name="Provincia" id="Provincia" placeholder="Provincia" value="" required/>
+		      			</li>
+		      			<li>
+		         			<input type="text" name="Código Postal" id="CódigoPostal" placeholder="Código Postal" value="" required/>
+		      			</li>
+		      			<li>
+		         			<input type="text" name="País" id="País" placeholder="País" value="" required/>
+		      			</li>
+		      				
+		      			<li>
+		      				<input type="text" name="Correo electrónico" id="CorreoElectrónico" placeholder="Correo electrónico" value="" required/>
+		      			</li>
+		      			<li>
+		      				<input type="text" name="DNI" id="DNI" placeholder="DNI" value="" required/>
+		      			</li>
+		      			<li>
+		      				<input type="date" name="nacimiento" step="1" min="1900-01-01" max="2018-12-03" value="2018-12-03" required/>
+		      			</li>
+
+
+		      		</ul>
+		      		<ul>
+		      			<li>
+		      				<h3>Área de estudios</h3>
+		   					<select name="Área" size="1" required>
+		   					<option value="">Artes y Humanidades</option>
+		   					<option>Ciencias de la salud</option>
+		   					<option>Comunicación e información</option>
+		   					<option>Derecho y ciencias políticas</option>
+		   					<option>Diseño, creación y multimedia</option>
+		   					<option>Economía y empresa</option>
+		   					<option>Informática, multimedia y telecomunicación</option>
+		   					<option>Psicología y ciencias de la educación</option>
+
+		   					</select>
+		      			</li>
+		      		</ul>
+
+		   			<ul>
+		   				<li>
+		   							   		<h3>Datos de pago</h3>
+
+		   					<select name="Área" required>
+		   					<option value="">Semestral</option>
+		   					<option>Anual</option>
+		   					</select>
+		   				</li>
+		   				<li>
+		   					<select name="Método de pago" required>
+		   					<option value="">Transferencia</option>
+		   					<option>Tarjeta</option>
+		   					<option>PayPal</option>
+		   					</select>
+		   				</li>
+		   				<li>
+		   					<select name="Talla" required>
+		   						<option label="S"></option>
+
+		   							<option value="M">M</option>
+		   							<option value="L">L</option>
+		   							<option value="XL">XL</option>
+		   							<option value="XXL">XXL</option>
+
+		   						<optgroup label="Hombres">
+		   							<option value="S">S</option>
+		   							<option value="M">M</option>
+		   							<option value="L">L</option>
+		   							<option value="XL">XL</option>
+		   							<option value="XXL">XXL</option>
+		   							<optgroup label="Mujeres">
+		   					</select>
+		   				</li>
+		   			</ul>
+
+		   			<ul>
+		   				<li>
+		   					<input type="checkbox" name="Política" required>Acepta la política de privacidad de la empresa.
+		   				</li>
+		   			</ul>
+		   			<ul>
+		   				<li>
+		         			<input type="button" value="Enviar" />
+		      			</li>
+		      		</ul>
+
+		</form>
+	</div>
+
+
+</div>
+
+
+	<div id="pie">
+
+		PEC3 Lenguajes y estándares web, 2018. José Miguel Sáez Teruel
+		<a href="https://unsplash.com/@huckster" id="autor">Créditos: Tomasz Woźniak</a>
+
+
+	</div>
+
+ 
+</body>
+</html>

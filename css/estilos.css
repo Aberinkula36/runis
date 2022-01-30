@@ -1,0 +1,173 @@
+/*INDEX*/
+
+body{
+	font-family: roboto;
+	background-color: white;
+	margin-top: -18px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	font-size: 17px;
+	background-color: antiquewhite;
+}
+
+header{
+	word-spacing: 40px;
+	width: 102%;
+	text-align: center;
+	display:block;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo{
+	width: 138px;
+	height: 98px;
+	vertical-align: middle;
+	margin-right: 450px;
+	margin-left: -150px;
+}
+
+header ul li a{
+	text-decoration: none;
+	color: blue;
+}
+
+header ul li{
+	display: inline-block;
+}
+
+header ul{
+	border-bottom: 4px solid blue;
+	width: 100%;
+	background-color: white;
+
+}
+
+header ul li a:hover{
+	border-bottom: 5px solid cyan;
+}
+
+header a:hover{
+	padding: 0px 0px 40px 0px;
+	color: cyan;
+}
+
+.cuerpo{
+	width: 1000px;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+#izquierda{
+	float: left;
+	margin-right: 60px;
+	margin-bottom: 120px;
+}
+
+#derecha{
+	float: left;
+	width: 61%;
+	margin-top: -30px;
+}
+
+.cover{
+	width: 330px;
+}
+
+.camiseta{
+	width: 330px;
+}
+
+h1{
+	color: darkblue;
+	font-size: 37px;
+}
+
+h2{
+	font-size: 18px;
+	color: darkblue;
+	font-style: normal;
+}
+
+#pie{
+   	background-color: darkcyan;
+   	color: white;
+   	padding: 30px;
+   	width: 101%;
+   	text-align: center;
+   	margin-top: 120px;
+   	clear: both;
+}
+
+#autor {
+	text-decoration: none;
+	color: white;
+	margin-left: 250px;
+}
+
+/*TALLAS*/
+
+#cabecera{
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+table{
+	width: 100%;
+	border-spacing: 0;
+	border-collapse: collapse;
+	border-bottom: 1px solid gray;
+}
+
+th{
+	background-color: gainsboro;
+	border: 1px solid gray;
+	padding: 5px;
+}
+
+td{
+	background-color: white;
+	text-align: right;
+	border-spacing: 0;
+	padding-right: 10px;
+	padding-left: 0;
+	border-left: 1px solid gainsboro;
+}
+
+td:last-child{
+	border-right: 1px solid gray;
+}
+
+caption{
+	color:white;
+	background-color: darkblue;
+	padding: 8px;
+}
+
+/*INSCRIPCIÓN*/
+
+.container{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 300px;
+	background: rgba(0, 0, 0, 0.2);
+	padding: 20px;
+}
+
+.container ul li {
+	list-style: none;
+}
+
+input{
+	padding: 5px;
+	margin: 2px;
+	border: 2px solid tan;
+	width: 80%;
+}
+
+h3{
+	color: darkblue;
+}
